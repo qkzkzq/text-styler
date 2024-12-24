@@ -20,17 +20,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Video Code Explaination
+```bash
+PART 1: https://www.loom.com/share/25de77a2fb41473c9ec50ebb815f62f5?sid=01d66419-fb00-4eb5-9606-5cf5fe9b25c8
+PART 2: https://www.loom.com/share/2827caa4b6ba4649a45510524e5e9c61?sid=06bc1a39-0305-4b30-b2c8-1fc96c94d709
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Prompt Used
+```bash
+Prompt for claude:
+For this we need to feed a prompt to the claude. Here is what we fed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We are making a AI Text Styler for Social Media. Here’s my specifications features:
+- A minimalist and clean design inspired by Pinterest's layout.
+- The targeted user is social media user which are gen z or gen Alpha, for aesthetic captions.
+- Converts input text from user into stylish fonts, symbols, and emojis.
+- Options for bold, italics, and cursive.
+- Categories like "Cute," "Cool," and "Funky."
+- A copy button on each styled text output for quick copying
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Example:
+Input: "Hello World"
+Output: "𝐇𝐞𝐥𝐥𝐨 𝗪𝗼𝗿𝗹𝗱 ✨🌏"
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I'm not a programmer, so please explain everything thoroughly.
+I need a step-by-step guidance.
+Don't assume any prior knowledge; spell out even the most basic steps.
+After this whatever claude suggests, we follow the given steps and finally use cursor to edit our codes and launch our application.
+```
